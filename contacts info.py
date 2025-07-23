@@ -16,7 +16,7 @@ class ContactBook:
                 print(f"Name: {name}, Phone: {details['phone']}, Email: {details['email']}")
 
     def search_contact(self, name):
-        """Search for a contact by name."""
+        """Search for a contact by name.""" 
         if name in self.contacts:
             contact = self.contacts[name]
             print(f"Found Contact - Name: {name}, Phone: {contact['phone']}, Email: {contact['email']}")
